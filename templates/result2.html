@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <!-- <link rel="stylesheet" href="static/css/style1.css"> -->
+    <link rel="stylesheet" href="{{url_for ('static',filename='css/style1.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body class="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="#">Personality Analysis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container-fluid justify-content-center m-5 ">
+        <h1>Results:</h1>
+        <br>
+        
+
+    </div>
+    <div class=" text-center m-5">
+        <div class="container ">
+            <div class="row">
+              <div class="col-sm d-flex flex-column justify-content-center align-items-center">
+                <h1> Hi, My name is  {{ heading1 }}</h1>
+        <p> {{ para1 }}</p>
+        <a href="#results" class="btn btn-info" type="button">See Full Results</a>
+              </div>
+              <div class="col-sm d-flex justify-content-center align-items-center">
+               <img src="picture.jpg" style="max-width: 250px" alt="">
+              </div>
+              
+            </div>
+          </div>
+       
+    </div>
+<div style="background-color: #EDF7FA; ">
+
+    <div class="list-unstyled card-columns content-bg ml-4 p-4" style="column-count: 4;     " id="results">
+    <section class="card text-center">
+
+        <h1> {{ heading1 }}</h1>
+        <p> {{ para1 }}</p>
+    </section>
+   
+    <section class="card text-center p-1">
+
+        <h1> {{ heading2 }}</h1>
+        <p> {{ para2 }}</p>
+    </section>
+
+    <section class="card text-center p-1">
+
+        <h1> {{ heading3 }}</h1>
+        <p> {{ para3 }}</p>
+    </section>
+
+    <section class="card text-center p-1">
+
+        <h1> {{ heading4 }}</h1>
+        <p> {{ para4 }}</p>
+    </section>
+
+
+    <section class="card text-center p-1">
+
+        <h1> {{ heading5 }}</h1>
+        <p> {{ para5 }}</p>
+    </section>
+
+
+    <section class="card text-center p-1">
+
+        <h1> {{ heading6 }}</h1>
+        <p> {{ para6 }}</p>
+    </section>
+    
+    <section class="card text-center p-1">
+
+        <h1> {{ heading7 }}</h1>
+        <p> {{ para7 }}</p>
+    </section>
+    
+
+    <section class="card text-center p-1 ">
+
+        <h1> {{ heading8 }}</h1>
+        <p> {{ para8 }}</p>
+    </section>
+
+    <section class="card text-center p-1">
+
+        <h1> {{ heading9 }}</h1>
+        <p> {{ para9 }}</p>
+    </section>
+    <section class="card text-center p-1">
+        <h2> {{ BigHeading }}</h2>
+    </section>
+    
+
+    <section class="card text-center p-1">
+
+        <h1> {{ heading10 }}</h1>
+        <p> {{ para10 }}</p>
+    </section>
+   
+    <section class="card text-center p-1">
+
+        <h1> {{ heading11 }}</h1>
+        <p> {{ para11 }}</p>
+    </section>
+
+    <section class="card text-center p-1">
+
+        <h1> {{ heading12 }}</h1>
+        <p> {{ para12 }}</p>
+    </section>
+    
+    <section class="card text-center p-1">
+
+        <h1> {{ heading13 }}</h1>
+        <p> {{ para13 }}</p>
+    </section>
+    
+    <section class="card text-center p-1">
+
+        <h1> {{ heading14 }}</h1>
+        <p> {{ para14 }}</p>
+    </section>
+
+
+</div>
+</div>
+
+
+
+
+
+
+    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/popper.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/Headroom.js"></script>
+    <script src="../static/js/jQuery.headroom.js"></script>
+    <script src="../static/js/owl.carousel.min.js"></script>
+    <script src="../static/js/smoothscroll.js"></script>
+    <script src="../static/js/custom.js"></script>
+
+
+</body>
+
+</html>

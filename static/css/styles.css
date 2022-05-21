@@ -1,0 +1,108 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.right {
+  float: right;
+  margin-top: 18px;
+  margin-right: 50px;
+}
+
+.welcomenote{
+  color: #303031; 
+  font-family: Futura BdCn BT; 
+  font-size: 32px;
+  margin-top: 30px;
+  margin-left: 25px;
+  letter-spacing: -4%;
+}
+.secondnote{
+  font-family: BelyDisplayW00-Regular;
+  line-height: 80px;
+  font-size: 60px;
+  width: 618px;
+  margin-left: 20px;
+}
+.thirdnote{
+  font-family: Inter-Regular;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -2%;
+  object-position: 5px 264px;
+  width: 580px;
+  margin-left: 20px;
+  text-align: center;
+  height: 128px;
+}
+
+.input{
+  margin-left: 24px;
+  width: 546px;
+  height: 50px;
+  font-size: 20px;
+  border-color: transparent;
+  background-color: #E4E4E4;
+  padding-left: 40px;
+  border-radius: 28px;
+  float: left;
+  border: transparent;
+  letter-spacing: 10%;
+}
+.input:hover{
+  border: transparent;
+}
+.button1 {
+  background-color: #71A894;
+  color: white;
+  margin-left: 400px;
+  margin-top: -50px;
+  border-radius: 28px;
+  float: left;
+  width: 175px;
+
+  height: 50px;
+  border: transparent;
+}
+
+.button1:hover {
+  background-color: #456157;
+  color: white;
+}
+
+
+.button2 {
+  background-color: #71A894;
+  color: white;
+  margin-left: 24px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 8px;
+  float: left;
+  width: 546px;
+margin-bottom: 20px;
+  height: 50px;
+  border: transparent;
+}
+
+.button2:hover {
+  background-color: #456157;
+  color: white;
+}
